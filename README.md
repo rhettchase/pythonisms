@@ -5,9 +5,12 @@
 ### Project Description
 
 Includes examples demonstrating `pythonic` language features, such as:
+
 - iterators/generators on a custom collection
 - decorator that adds behavior to a given function
 - dunder methods
+
+Custom iterators can be very powerful for generating sequences or iterating over data in ways that are not easily achievable with built-in Python functions or loops. They provide a clear, concise way to encapsulate iteration logic within a class that can then be reused across projects.
 
 ### Author: Rhett Chase
 
@@ -37,6 +40,7 @@ Includes examples demonstrating `pythonic` language features, such as:
 - Clone repo
 - Install dependencies (see above)
 - Initiate virtual environment
+- Run tests using the commands below
 
 #### How to use your library (where applicable)
 
@@ -44,4 +48,5 @@ Includes examples demonstrating `pythonic` language features, such as:
 
 #### Tests
 
-- TBD
+- `pytest tests/test_repeater.py`
+- `pytest tests/test_linked_list_iterator.py`
