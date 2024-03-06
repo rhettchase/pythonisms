@@ -12,6 +12,10 @@ Includes examples demonstrating `pythonic` language features, such as:
 
 Custom iterators can be very powerful for generating sequences or iterating over data in ways that are not easily achievable with built-in Python functions or loops. They provide a clear, concise way to encapsulate iteration logic within a class that can then be reused across projects.
 
+In Python, a generator is a special type of iterator, a function that returns an iterator object. Generators simplify the creation of iterators by automatically implementing the `__iter__()` and `__next__()` methods with a simpler syntax. The key feature that distinguishes a generator from a regular function is the presence of one or more `yield` statements instead of a `return` statement. When a generator function calls `yield`, it produces a value to the caller and suspends its own execution, maintaining its state for when it's called again.
+
+Decorators in Python are a very powerful and useful tool, allowing you to modify the behavior of a function or method without permanently modifying the function itself.
+
 ### Author: Rhett Chase
 
 ### Links and Resources
@@ -41,6 +45,7 @@ Custom iterators can be very powerful for generating sequences or iterating over
 - Install dependencies (see above)
 - Initiate virtual environment
 - Run tests using the commands below
+- For decorators, run the python interactive shell and use the functions
 
 #### How to use your library (where applicable)
 
